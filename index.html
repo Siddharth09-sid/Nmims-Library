@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta name="viewport" content="with=device-width, initial-scale=1.0">
+      <title>College Library</title>
+      <link rel="stylesheet" href="stylee.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+
+        <nav>
+             <a href="indexx.html"><img src="images/logo-nmims-navi-mumbai-campus.jpg" width="25%"  ></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-arrow-circle-right" onclick="hideMenu()"></i>
+                <ul> 
+                    <li><a href="indexx.html">HOME</a></li>
+                    <li><a href="#About">ABOUT</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="#Contact Us">CONTACT</a></li>
+                </ul>
+             </div>
+             <i class="fa fa-ellipsis-v" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Online College Library</h1>
+        <p>Access to any book you want is the easiest thing in the world. All you need to do is login, and you're done!</p>
+        <a href="login.html" class="hero-btn">Click to enter :-)</a>
+    
+    </div>
+    </section>
+<!----Course-->
+<main>
+<section class="course">
+    <h1>Books for the following Schools are available </h1>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>School of Technology Management and Engineering (STME).</h3>
+            <p>Books related to engineering, recent innovations, technology,
+                and management studies are available here</p>
+                <a href="STME.html" target="_blank">Click Here</a>
+            </div>
+        <div class="course-col">
+            <h3>School of Commerce (SOC).</h3>
+            <p>Books related to commercial applications, business learnings, acccountings are available here.</p>
+            <a href="STME.html" target="_blank">Click Here</a>
+        </div>
+        <div class="course-col">
+            <h3>School of Law (SOL).</h3>
+            <p>Books related to law and court studies and recent updates on country laws and help regarding internships and entrance exams are available here.</p>
+            <a href="STME.html" target="_blank">Click Here</a>
+        </div>
+        <div class="course-col">
+            <h3>School of Hospitality and Management (SOHM).</h3>
+            <p>Books related to Hotel management, chef's recipes, hospitality education, machinery working and assistive books are available here.</p>
+            <a href="STME.html" target="_blank">Click Here</a>
+        </div>
+
+    </div>
+</section>
+</main>
+<!------Campus------>
+
+<section class="campus", id="About">
+<h1>Our On-Campus Library</h1>
+<p>about the on campus lib </p>
+<img src="images/Reading room with students.jfif" alt="">
+
+
+
+<section id="Contact Us", class="location">
+    <h1>Contact Us</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30169.335436659323!2d73.07262688356113!3d19.056396858754862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c1fa2d330e2b%3A0xfb8df77eb24acba7!2sNMIMS%20Navi%20Mumbai!5e0!3m2!1sen!2sin!4v1634803414895!5m2!1sen!2sin" width="800" height="450" style="border:0;"frameborder=0 allowfullscreen="" loading="lazy" class="map"></iframe>
+    
+    <div style="margin-top: 5%;">
+        <h3 class="web">Nmims Website:</h3> <a href="http://nmimsnavimumbai.org/ " class="sitecolor">http://nmimsnavimumbai.org/</a>
+        <h3>Email Id: nmimsnavimumbai@nmims.edu.in</h3>
+        <h3>Phone Number: +912265659702</h3>    
+    </div>
+</section>
+</section>
+
+
+<!--JavaScript for Toggle Menu--->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>    
+<section class="footer">
+<footer>
+    <a href="#">FAQ</a>&nbsp;&nbsp;
+    <a href="#">Contact Us</a>&nbsp;&nbsp;
+    <a href="#">Terms of Use</a>&nbsp;&nbsp;
+    <a href="#">Privacy Policy</a>&nbsp;&nbsp;
+    <a href="#">Refund Policy</a>&nbsp;&nbsp;
+    <a href="#">&copy;</a>&nbsp;&nbsp;
+    <a href="#">&reg;</a>&nbsp;&nbsp;
+</footer>
+</section>
+</body>
+</html>  
