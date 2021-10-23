@@ -1,3 +1,12 @@
+body{
+    background-image: url(images/paper\ background.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    position: relative;
+    background-size:cover;
+    z-index: -1;
+    
+}
 .course{
     width: 80%;
     margin: auto;
@@ -12,7 +21,7 @@ h1{
 
 p{
     color: #946b45;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 300;
     line-break: 22px;
     padding: 10px;
@@ -41,4 +50,12 @@ h3{
 }
 @media(max-width: 700){
     .row{flex-direction: column;}
+}
+a{
+    text-decoration: none;
+    color: rgb(80, 74, 74);
+
+}
+.bg{
+    opacity: 0.8;
 }

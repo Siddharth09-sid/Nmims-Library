@@ -114,6 +114,9 @@ nav .fa{
         padding: 30px;
     }
 }
+.bg{
+    opacity: 0.9;
+}
 
 /*----Course----*/
 
@@ -194,5 +197,17 @@ h3{
 a{
     text-decoration: none;
     color: rgb(80, 74, 74);
+
+}
+
+/*--------Blog-----*/
+.photo{
+    background-image: url(images/paper2.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    position: relative;
+}
+.photo a{
+    margin: 0px 15px ;
 
 }

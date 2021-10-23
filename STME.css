@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1,p{
+    text-align: center;
+    
+}
+h2{
+    padding-top: 2%;
+
+}
+.book{
+    background-image: url(images/paper2.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    position: relative;
+
+}
+.book a{
+    margin: 0px 15px ;
+
+}
+.abc{
+    margin-top: 15px;
+}
+.bg{
+    opacity: 0.8;
+}
