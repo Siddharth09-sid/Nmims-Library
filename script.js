@@ -21,31 +21,25 @@ for(let p of pairs){
     console.log(p.join(' '));
 }
 */
-function validate()
-{
-    var username = document.getElementById("email").value;
+function validate() {
+    var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
-    if(email== "admin@nmims.edu.in"&& password=="admin@123")
-    {
-        alert("login successfull");
-        return false;
+  
+    if (email == "admin@nmims.edu.in" && password == "admin@123") {
+      alert("login successfull");
+    } else if (email == "abc@nmims.edu.in" && password == "abc@123") {
+      alert("login successfull");
+    } else if (
+      email == "siddharth.pandya40@nmims.edu.in" &&
+      password == "sid@123"
+    ) {
+      alert("login successfull");
+    } else if (email == "aryan.yadav69@nmims.edu.in" && password == "aryan@123") {
+      alert("login successfull");
+    } else {
+      alert("Username or password is invalid, please try again!");
+      return;
     }
-    else if(email== "abc@nmims.edu.in"&& password=="abc@123")
-    {
-        alert("login successfull");
-        return false;
-    }
-    else if(email== "siddharth.pandya40@nmims.edu.in"&& password=="sid@123")
-    {
-        alert("login successfull");
-        return false;
-    }
-    else if(email== "aryan.yadav69@nmims.edu.in"&& password=="aryan@123")
-    {
-        alert("login successfull");
-        return false;
-    }
-    else{
-        alert("login Sucessfull");
-    }
-}
+    window.location.replace("school.html");
+  }
+  
